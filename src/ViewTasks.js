@@ -6,7 +6,7 @@ export default function ViewTasks() {
     
     return (
         <div class="task">
-            <Checkbox/>
+            <Checkbox check="true"/>
             <label>Task</label>
         </div>
 
