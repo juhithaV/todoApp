@@ -1,6 +1,6 @@
 body {
-  background-color: black;
-  color: black;
+   background-color: rgb(140, 100, 141);
+   color: white;
 }
 
 main{
@@ -22,6 +22,7 @@ form input[type="text"]{
   padding: 10px 20px;
   display: block;
   width: 100%;
+  color: white;
 }
 
 form button {
@@ -31,13 +32,14 @@ form button {
   border-radius: 5px;
   cursor: pointer;
   font-size: large;
+  color: white;
 }
 
 
 div.task{
   background-color: rgb(82, 38, 83);
   border-radius: 5px;
-  padding: 5px;
+  padding: 5px 9px;
   margin-top: 5px;
   display: flex;
 }

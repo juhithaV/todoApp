@@ -2,12 +2,12 @@
 import Checkbox from "./Checkbox";
 
 
-export default function ViewTasks() {
+export default function ViewTasks({name,done}) {
     
     return (
-        <div class="task">
-            <Checkbox check="true"/>
-            <label>Task</label>
+        <div className="task">
+            <Checkbox check={done} />
+            <label>{name}</label>
         </div>
 
     )
